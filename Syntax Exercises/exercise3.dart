@@ -1,0 +1,12 @@
+void main(){
+  String palindromo = 'Juego';
+  palindromo = palindromo.toLowerCase();
+  String reversed = palindromo.split('').reversed.join('');
+
+  if(palindromo == reversed){
+    print("Es un palindromo");
+  } else {
+    print("No es un palindromo");
+  }
+
+}
