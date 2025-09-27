@@ -1,3 +1,5 @@
+//Donada una cadena de texte, imprimiu si aquesta cadena és un palíndrom o no.
+
 void main(){
   String palindromo = 'Juego';
   palindromo = palindromo.toLowerCase();

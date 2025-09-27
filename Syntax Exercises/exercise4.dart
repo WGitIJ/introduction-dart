@@ -1,3 +1,6 @@
+// Implementa una funció que pren com a entrada tres variables i retorna la més
+// gran de les tres. Feu això sense utilitzar la funció Dart max().
+
 void main(){
   int a = 3;
   int b = 4;
