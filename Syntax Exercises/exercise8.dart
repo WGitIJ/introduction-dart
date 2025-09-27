@@ -8,8 +8,3 @@ void main(){
 
 }
 
-int createPassword(int length){
-  const alphanumeric = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  const specialCharacters = '!@#\$%^&*()_+-=[]{}|;:,.<>?';
-
-}
