@@ -1,12 +1,16 @@
-void main() {
-  var a = [1,4,9,16,25, 36,49,64,81,100];
-  var pairs = [];
+// Realitza un programa que generi un nombre aleatori entre 1 i 100, i
+// seguidament comprovi si aquest nombre és primer o no. Pots fer servir la
+// llibreria import 'dart:math';
 
-  for (var number in a){
-    if(number % 2 == 0){
-      pairs.add(number);
-    }
+import 'dart:math';
+
+void main(){
+  var randomNumber = Random().nextInt(100);
+  print("El numero aleatorio es: $randomNumber");
+
+  if(randomNumber % 2 == 0){
+    print("El número es par");
+  } else{
+    print("El número no es primo");
   }
-
-  print(pairs);
 }
