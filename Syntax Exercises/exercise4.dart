@@ -4,6 +4,10 @@ void main(){
   int c = 1;
 
   if(a>b && a>c){
-    print('x');
+    print(a);
+  } else if(b>a && b>c){
+    print(b);
+  } else {
+    print(c);
   }
 }

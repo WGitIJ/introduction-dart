@@ -7,8 +7,6 @@ void main(){
   print(name);
   print(name.length);
 
-  var cadena1 = 'Hola Mundo';
-  var cadena2 = "Hola Mundo 2";
 
   var string1 = 'Hola' 'mon';
   print(string1);
