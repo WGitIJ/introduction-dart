@@ -5,6 +5,18 @@
 import 'dart:math';
 
 void main(){
-
+  passwordGenerator(8);
 }
+
+void passwordGenerator(int length){
+  String alphanum = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  String password = '';
+
+  Random random = Random();
+  for(int i=0; i<length; i++){
+    int index = random.nextInt(alphanum.length);
+    password = password + alphanum[index];
+  }
+
+  print(password);}
 
