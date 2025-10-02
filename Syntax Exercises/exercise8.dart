@@ -18,5 +18,6 @@ void passwordGenerator(int length){
     password = password + alphanum[index];
   }
 
-  print(password);}
+  print(password);
+}
 
