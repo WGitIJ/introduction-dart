@@ -7,7 +7,7 @@ import 'dart:math';
 void main(){
   var randomNumber = Random().nextInt(100);
   print("El numero aleatorio es: $randomNumber");
-
+ //Todo: esto está mal, no cumple con el enunciado
   if(randomNumber % 2 == 0){
     print("El número es par");
   } else{
