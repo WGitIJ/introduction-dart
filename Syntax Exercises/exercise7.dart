@@ -8,6 +8,6 @@ void main(){
 
 String inversWord(String word){
   word = word.toLowerCase();
-  String wordReversed = word.split("").reversed.join("");
+  String wordReversed = word.split(" ").reversed.join(" ");
   return wordReversed;
 }
