@@ -99,9 +99,10 @@ class Person{
 
   @override
   String toString() {
-    // TODO: implement toString
-    return 'Name: ${name} Surname: ${surname} Age: ${age}';
+    return 'Person{name: $name, surname: $surname, age: $age}';
   }
+
+
 }
 
 abstract class Animal{

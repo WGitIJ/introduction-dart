@@ -7,10 +7,17 @@ import 'dart:math';
 void main(){
   var randomNumber = Random().nextInt(100);
   print("El numero aleatorio es: $randomNumber");
- //Todo: esto está mal, no cumple con el enunciado
-  if(randomNumber % 2 == 0){
-    print("El número es par");
-  } else{
-    print("El número no es primo");
+  if(isPrime(randomNumber)){
+    print("El numero $randomNumber es primo");
+  } else {
+    print("El numero $randomNumber no es primo");
   }
+}
+
+bool isPrime(int number){
+  if(number <= 1) return false;
+  for(int i = 2; i <= sqrt(number); i++){
+    if(number % i == 0) return false;
+  }
+  return true;
 }
